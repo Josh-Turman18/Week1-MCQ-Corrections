@@ -18,7 +18,9 @@ public class start
         System.out.print('\u000C');
         
         start_unit1 run_unit1 = new start_unit1();
+        start_unit2 run_unit2 = new start_unit2();
         
         run_unit1.begin();
+        run_unit2.begin();
     }
 }
