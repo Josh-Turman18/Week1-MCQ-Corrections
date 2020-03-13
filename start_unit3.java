@@ -25,7 +25,7 @@ public class start_unit3
         start_question3.go();
         start_question7.go();
         start_question4.go_option1();
-        //start_question4.go_option2();
-        //start_question6.go();
+        start_question4.go_option2();
+        start_question6.go();
     }
 }
