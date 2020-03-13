@@ -16,6 +16,8 @@ public class U5B_Question5
     {
         System.out.println("\nQuestion 5: ");
         
+        Beverage goBeverage = new Beverage(16);
         
+        System.out.println("Nothing is printed out for question 5\nit just shows a class with static method");
     }
 }
