@@ -14,6 +14,11 @@ public class start_unit1
     {
         
     }
+    
+    public static void main(String [] args)
+    {
+        begin();
+    }
 
     public void begin()
     {
