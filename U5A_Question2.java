@@ -16,6 +16,8 @@ public class U5A_Question2
     {
         System.out.println("\nQuestion 2: ");
         
+        Q2_Thing run_Thing = new run_Thing("There is no output for Question 4,The class\nQ2_Thing was just created in the correct way");
         
+        run_Thing.helper();
     }
 }
