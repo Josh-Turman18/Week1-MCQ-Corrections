@@ -22,6 +22,10 @@ public class start_unit5B
         U5B_Question8 start_question8 = new U5B_Question8();
         U5B_Question12 start_question12 = new U5B_Question12();
         
-        
+        start_question4.go();
+        start_question5.go();
+        start_question6.go();
+        start_question8.go();
+        start_question12.go();
     }
 }
