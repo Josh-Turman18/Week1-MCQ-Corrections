@@ -20,9 +20,11 @@ public class start
         start_unit1 run_unit1 = new start_unit1();
         start_unit2 run_unit2 = new start_unit2();
         start_unit3 run_unit3 = new start_unit3();
+        start_unit4 run_unit4 = new start_unit4();
         
         run_unit1.begin();
         run_unit2.begin();
         run_unit3.begin();
+        run_unit4.begin();
     }
 }
