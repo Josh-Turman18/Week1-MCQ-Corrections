@@ -16,6 +16,9 @@ public class U5B_Question12
     {
         System.out.println("\nQuestion 12: ");
         
-        
+        Email e = new Email("default");  // this creates the object e from
+        // the Email class and sets the username to "default"
+        e.printThis();  // This will print "default@example.com
+        // *see the Email class for the explanation as to why*
     }
 }
