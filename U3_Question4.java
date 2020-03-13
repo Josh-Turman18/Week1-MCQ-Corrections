@@ -15,7 +15,7 @@ public class U3_Question4
 
     public void go_option1()
     {
-        System.out.println("\n\nQuestion4: ");
+        System.out.println("\n\nQuestion4: \nMethod 1:");
         
         int x = 8 , y = 6;
         
@@ -42,6 +42,25 @@ public class U3_Question4
     
     public void go_option2()
     {
+        System.out.println("\n\nMethod 2:");
         
+        int x = 8, y = 6;
+        
+        // This if-else statement will first check to see if y is larger
+        // than x. If y is larger that x, it will subtract x from y and
+        // output the result to the screen. If y is not larger than x, it
+        // will subtract y from x and output the result to the screen.
+        // Therefore, like the first method, this method simply prints out
+        // the difference of x and y, so the correct answer is A
+        if (x < y)
+        {
+            System.out.print(y - x);
+        }
+        else
+        {
+            System.out.print(x - y);
+        }
+        
+        System.out.print("\n");
     }
 }
