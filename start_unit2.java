@@ -15,6 +15,7 @@ public class start_unit2
     
     public static void main(String [] args)
     {
+        System.out.print('\u000C');
         begin();
     }
 
